@@ -36,6 +36,11 @@ export const SIDEBAR_ITEMS = [
     path: "/recipes",
     id: 3,
     icon: <InfoCircleOutlined />,
+  }, {
+    name: "Users",
+    path: "/users",
+    id: 6,
+    icon: <InfoCircleOutlined />,
   },
   {
     name: "Privacy",
