@@ -1,0 +1,81 @@
+.form_mask {
+
+}
+
+.form_mask_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_mask_title {
+    font-size: 16px;
+    margin: 0 0 7px;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.form_mask_direction {
+    font-weight: 500;
+    color: #505d69;
+}
+
+.form_mask_wrapper {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.form_mask_description {
+     font-size: 15px;
+     margin: 0 0 7px;
+     font-weight: 500;
+     color: #505d69;
+}
+
+.form_mask_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form_mask_input {
+    display: block;
+    font: inherit;
+    color: currentColor;
+    padding: 6px 0 7px;
+    min-width: 0;
+    box-sizing: content-box;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+    width: 90%;
+    padding: 10px 20px;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #505d69;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.form_mask_label {
+    width: 45%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #505d69;
+    margin-bottom: 5px;
+}
+
+.form_mask_text {
+     font-size: 12px;
+     font-weight: 500;
+     color: #505d69;
+     margin-top:5px;
+}

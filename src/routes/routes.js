@@ -1,5 +1,6 @@
 import Users from "../pages/Users";
 import Dashboard from "../pages/Dashboard";
+import FormMask from "../pages/formmask";
 import {
     Route,
     Routes,
@@ -32,6 +33,11 @@ export const privateRoute = [
         path: "/users",
         layout: DashboardLayout,
         component: Users,
+    },
+    {
+        path: "/formmask",
+        layout: DashboardLayout,
+        component: FormMask,
     },
     {
         path: "/comments",

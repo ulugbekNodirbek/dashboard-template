@@ -310,3 +310,87 @@ export const InputArr = [
 
 
 ]
+
+
+export const FORM_MASK = [
+    {
+        id:0,
+        label:'ISBN 1',
+        labelId:'ISBN 1',
+        text:'e.g "999-99-999-9999-9"',
+        plachold:'___-__-___-____-__-_',
+        type:'number',
+    },
+    {
+        id: 1,
+        label: 'Tax ID',
+        labelId: 'Tax ID',
+        text: '99-9999999',
+        plachold: '__-_______',
+        type: 'number',
+    },
+    {
+        id: 2,
+        label: 'ISBN 2',
+        labelId: 'ISBN 2',
+        text: '999 99 999 9999 9"',
+        plachold: '___ __ ___ ____ __ _',
+        type: 'number',
+    },
+    {
+        id: 3,
+        label: 'Phone',
+        labelId: 'Phone',
+        text: '(___) ___-____',
+        plachold: '(___) ___-____',
+        type: 'number',
+    },
+    {
+        id: 4,
+        label: 'ISBN 3',
+        labelId: 'ISBN 3',
+        text: '999/99/999/9999/9',
+        plachold: '___/__/___/____/__/_',
+        type: 'number',
+    },
+    {
+        id: 5,
+        label: 'Currency',
+        labelId: 'Currency',
+        text: '$ 999,999,999.99',
+        plachold: '$ ___,___,___.__',
+        type: 'number',
+    },
+    {
+        id: 6,
+        label: 'IPV4',
+        labelId: 'IPV4',
+        text: '192.168.110.310',
+        plachold: '___.___.___.___',
+        type: 'number',
+    },
+    {
+        id: 7,
+        label: 'Date',
+        labelId: 'Date',
+        text: 'dd/mm/yyyy',
+        plachold: '__/__/____ ',
+        type: 'number',
+    },
+    {
+        id: 8,
+        label: 'IPV6',
+        labelId: 'IPV6',
+        text: '4deg:1340:6547:2:540:h8je:ve73:98pd',
+        plachold: '____:____:____:_:___:____:____:____',
+        type: 'number',
+    },
+    {
+        id: 9,
+        label: 'Date 2',
+        labelId: 'Date 2',
+        text: 'dd-mm-yyyy',
+        plachold: '__-__-____',
+        type: 'number',
+    },
+]

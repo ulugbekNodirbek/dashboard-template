@@ -54,4 +54,10 @@ export const SIDEBAR_ITEMS = [
     id: 5,
     icon: <SettingFilled />,
   },
+  {
+    name: "FormMask",
+    path: "/formmask",
+    id: 7,
+    icon: <SettingFilled />,
+  },
 ];
