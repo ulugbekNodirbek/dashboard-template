@@ -60,4 +60,10 @@ export const SIDEBAR_ITEMS = [
     id: 7,
     icon: <SettingFilled />,
   },
+  {
+    name: "Calendar",
+    path: "/calendar",
+    id: 8,
+    icon: <SettingFilled />,
+  },
 ];

@@ -15,6 +15,7 @@ import DashboardLayout from "../layout/DashboardLayout";
 import LoginPage from "../pages/Login";
 import Comments from "../pages/Comments";
 import {Register, Login, Reset} from '../components/login'
+import CalendarPages from "../pages/calendar";
 
 export const privateRoute = [
     {
@@ -28,6 +29,11 @@ export const privateRoute = [
         path: "/dashboard",
         layout: DashboardLayout,
         component: Dashboard,
+    },
+    {
+        path: "/calendar",
+        layout: DashboardLayout,
+        component: CalendarPages,
     },
     {
         path: "/users",
